@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*social section start*/
+.social_section{
+	background: #d0d0d057;
+}
+.social{
+    float: right;
+}
+.social ul {
+	margin-bottom: 0;
+	list-style: none;
+}
+.social ul li{
+    display: inline-flex;
+}
+.social ul li a{
+	color: #424242;
+    border: none;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;	
+}
+.social ul li a i{}
+.social p{
+	line-height: 40px;
+	padding-right: 30px;
+	margin-bottom: 0;
+}
+.social span{
+    border: .5px solid #0000004a;
+    margin-left: 5px;
+    margin-right: 5px;	
+}
+
+.social ul li a:hover{
+	color: #fff;
+	background: #1287bf;
+}
+
+
+
+
+/*social section end*/
+
+/*header section start*/
+.header_section{
+    padding-top: 30px;
+    background: #fff;
+    padding-bottom: 30px;
+}
+.logo{}
+.logo img{
+    padding-top: 15px;
+	float: left;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #000;
+}
+.logo p{
+	font-size: 16px;
+	padding-left: 85px;
+	margin-bottom:0;
+}
+.logo p span{
+	margin-left: 0;
+    border: none;
+    font-weight: 600;
+    font-size: 37px;
+}
+
+.head{}
+.head ul{
+    padding-top: 20px;	
+}
+.head ul li{
+    padding-left: 20px;	
+}
+.head ul li a{
+    color: #000;
+    font-weight: 600;	
+}
+.head ul li button{
+	border: none;
+	color: #fff;
+	background: #DE2B24;
+    padding: 10px 30px;	
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_section{
+    padding:195px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background:url(../images/banner1.png);
+}
+.banner{
+	text-align: center;
+}
+.banner h1{
+	margin-bottom: 0;
+	font-weight: 900;
+	color: #fff;
+	font-size: 48px;
+}
+.banner p{
+    margin-bottom: 0;
+    color: #fff;
+    padding-bottom: 45px;
+    font-size: 28px;
+}
+.banner a{
+}
+.banner button{
+    background: #F8CD53;
+    color: #fff;
+    font-size: 24px;    
+    border: none;
+    padding: 10px 20px;
+}
+.banner a button:hover{
+	background:#DE2B24; 
+}
+
+/*banner section end*/
+
+/*about section start*/
+.about_section{
+	background: #fff;
+}
+.about{ text-align: center; }
+.about h1{
+	padding-top: 50px;
+	font-weight: 900;
+	font-size:40px;
+	color:#000;
+}
+.about p{
+	color: #999;
+	font-size:26px;
+}
+.abo{
+	text-align: center;
+}
+.abo hr{
+    width: 50px;
+    display: block;
+    height: 4px;
+    background: #000;	
+}
+.us img{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.us{
+	padding-bottom: 50px;
+	text-align: center;
+}
+.us h3{
+	padding-bottom:10px;
+	font-weight:600;
+	font-size: 24px;
+	color: #000;
+}
+.us p{
+	font-size: 16px;
+	line-height: 30px;
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+}
+/*about section end*/
+
+/*approch section start*/
+.approch_section{
+	padding-bottom: 50px;
+	background: #d0d0d057;
+}
+.our{ text-align: center; }
+.our h1{
+	padding-top: 50px;
+	font-weight: 900;
+	font-size:40px;
+	color:#000;
+}
+.our p{
+	color: #999;
+	font-size:26px;
+}
+.float{
+	position: relative;
+	padding-bottom: 70px;
+}
+.img1{
+	padding: 0;
+	background: #fff;
+}
+.pik_left{
+	float: left;
+	padding: 0
+}
+.pik_left img{}
+.pik1{
+    color: #fff;
+    background: #DE2B24;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-285%,-100%);
+}
+
+.pik1 p{
+	text-align: center;
+}
+.pik1 p span{
+    font-weight: 900;
+    font-size: 26px;
+    font-family: Merriweather;
+}
+.haddding{
+	padding-right: 50px;
+	float: left;
+}
+.haddding h2{
+    padding-top: 30px;	
+}
+.haddding p{
+    padding-top: 20px;
+    line-height: 35px;	
+}
+
+
+
+
+
+
+.pik_right{
+	float: right;
+	padding: 0
+}
+.pik_right img{
+	float:right;
+}
+.pik2{
+    color: #fff;
+    background: #DE2B24;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(375%,-100%);
+}
+.pik2 p{
+	text-align: center;
+}
+
+.pik2 p span{
+    font-weight: 900;
+    font-size: 26px;
+    font-family: Merriweather;
+}
+.hadddingg{
+	padding-right: 50px;
+	padding-left: 50px;
+	float: left;
+}
+.hadddingg h2{
+	float: right;
+    padding-top: 30px;	
+}
+.hadddingg p{
+	float: right;
+    padding-top: 20px;
+    line-height: 35px;	
+}
+
+
+
+
+/*approch section end*/
+
