@@ -87,7 +87,14 @@ body{
 .head ul li{
     padding-left: 20px;	
 }
+.head ul li a:hover{
+    transition: all 0.5s;
+	cursor: pointer;
+	color:#DE2B24;
+	background:#fff;
+}
 .head ul li a{
+    border: 1px solid #fff;
     color: #000;
     font-weight: 600;	
 }
@@ -97,11 +104,18 @@ body{
 	background: #DE2B24;
     padding: 10px 30px;	
 }
+.head ul li button:hover{
+    transition: all 0.5s;
+	cursor: pointer;
+    padding: 10px 30px;	
+	color:#fff;
+	background:#F8CD53
+}
 /*header section end*/
 
 /*banner section start*/
 .banner_section{
-    padding:195px 0px;
+	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background:url(../images/banner1.png);
@@ -130,7 +144,8 @@ body{
     border: none;
     padding: 10px 20px;
 }
-.banner a button:hover{
+.banner a button:hover{	
+    transition: all 0.5s;
 	background:#DE2B24; 
 }
 
@@ -295,8 +310,211 @@ body{
     line-height: 35px;	
 }
 
-
-
-
 /*approch section end*/
 
+/*work section start*/
+.Work_section{
+	background: #DE2B24;
+	padding-bottom:100px;
+	padding-top: 50px;
+}
+.ourw{
+	text-align: center;
+}
+.ourw h1{
+	padding-top: 50px;
+	font-weight: 900;
+	font-size:40px;
+	color:#fff;
+}
+.ourw p{
+	color: #ffffffbf;
+	font-size:26px;
+}
+.aboo{
+	text-align: center;
+    padding-bottom: 50px;
+}
+.aboo hr{
+    width: 50px;
+    display: block;
+    height: 4px;
+    background: #fff;	
+}
+
+.wor{
+	padding: 0;
+}
+.Work2{}
+.Work2 img{
+	width: 285px;
+}
+/*
+.Work1{}
+.Work1{}
+*/
+
+.work1{
+    background-color: #f35e59;
+    height: 100%;
+    width: 100%;
+    padding-top: 55px;
+    text-align: center;
+}
+.work1 a{}
+.work1 i{
+    padding-bottom: 20px;
+    color: #ffffff99;
+    font-size: 50px;
+    padding-top: 20px;	
+}
+.work1 h2{
+	font-size:30px;
+	color:#fff;
+	
+}
+.work1 p{
+	font-size:16px;
+	color: #ffffffbf;
+}
+/*work section end*/
+
+/*document section start*/
+
+.document_section{
+	background:#1287BF;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.facebook{}
+.facebook h2{
+	font-size:36px;
+	font-weight:600;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+}
+.facebook p{
+	font-size:20px;
+	color:#ffffffb3;
+	text-align: center;
+}
+.facebook ul{
+	list-style: none;
+}
+.facebook ul li{
+	padding-top: 50px;
+	text-align: center;
+}
+.facebook ul li a{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+
+.facebook ul li a:hover{
+	background:#DE2B24;
+}
+.facebook ul li a i{
+	font-size: 36px;
+	color:#fff;
+}
+
+/*document section end*/
+
+/*touch section start*/
+
+.touch_section{
+	padding-top: 50px;
+	padding-bottom:100px;
+	background:#000;
+}
+.touch{
+	text-align: center;
+}
+.touch h2{
+	padding-top:50px;
+	padding-bottom: 50px;
+	color: #fff;
+	font-weight: 900;
+	font-size: 30px;
+}
+.media{
+    text-align: center;
+    display: block;
+    margin: 0 auto
+}
+.media ul{
+	list-style: none;
+}
+.media ul li{}
+.media ul li a{
+    border: 2px solid #fff;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+	margin-right:18px;
+}
+.media ul li a i{
+	font-size: 25px;
+	color: #fff;	
+}
+
+.media ul li a:hover{
+    border: 2px solid #DE2B24;
+}
+.media p{
+	padding-top:20px;
+	color:#ffffffa1;
+	font-size: 16px;
+}
+.input{
+	padding-top: 40px;
+}
+.input input{
+	background:#515151;
+}
+.form-control:focus{
+	color: #fff;
+    background: #5f5d5d;
+    border-color: #ffffff;
+}
+.submit{
+	padding-top: 40px;
+}
+.submit button{
+    border: 1px solid;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 35px;
+}
+.submit button:hover{
+    border: 1px solid #DE2B24;
+
+}
+
+/*touch section end*/
+
+/*footer section start*/
+.footer_section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background:#515151;
+}
+.footer{
+	text-align: center;
+}
+.footer p{
+	margin-bottom: 0;
+	color:#ffffffa1;
+}
+/*footer section end*/
