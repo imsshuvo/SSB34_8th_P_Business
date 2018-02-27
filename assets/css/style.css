@@ -408,7 +408,7 @@ body{
     background: none;
     height: 50px;
     border-radius: 50%;
-    line-height: 40px;
+    line-height:50px;
 }
 .document button:hover{
 	background: #DE2B24;
@@ -483,9 +483,11 @@ button:focus {
     padding-bottom: 20px;
 }
 .submit input{
+    text-transform: uppercase;
     padding: 10px 40px;
-	color: #fff;
-	background:#DE2B24;
+    color: #fff;
+    background: #DE2B24;
+    font-weight: 400;
 }
 
 /*document section end*/
