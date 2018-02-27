@@ -380,49 +380,112 @@ body{
 /*work section end*/
 
 /*document section start*/
-
 .document_section{
 	background:#1287BF;
 	padding-bottom: 100px;
 	padding-top: 100px;
 }
-
-.facebook{}
-.facebook h2{
+.document{
+	padding-bottom: 50px;
+}
+.document h1{
 	font-size:36px;
 	font-weight:600;
 	color: #fff;
 	text-align: center;
 	margin-bottom: 0;
 }
-.facebook p{
+.document p{
 	font-size:20px;
 	color:#ffffffb3;
 	text-align: center;
 }
-.facebook ul{
-	list-style: none;
+.document button{
+    width: 50px;
+    border: 1px solid #fff;
+    margin:0 auto;
+    display: block;
+    background: none;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 40px;
 }
-.facebook ul li{
-	padding-top: 50px;
-	text-align: center;
+.document button:hover{
+	background: #DE2B24;
+	color: #fff;
 }
-.facebook ul li a{
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    text-align: center;
-    line-height: 75px;
-    border: 2px solid #fff;
+.document button i{
+    color: #fff;
+    font-size:20px;
+    background: none;
+}
+.form-controll{
+	position: relative;
+}
+.form-controll button{
+    top: 0;
+    background: #DE2B24;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 0;
     border-radius: 30px;
+    height: 45px;
+    width: 45px;
+	line-height: 12px;
+    text-align: center;
+    transform: translate(5%,-40%);
+}
+.form-controll button::before{
+    position: absolute;
+    content: "";
+}
+.form-controll button i{
+	font-size: 20px;
+	color: #fff;
+}
+.form-controll form{
+    background: #fff;
+    padding: 30px 50px;
 }
 
-.facebook ul li a:hover{
-	background:#DE2B24;
+.form-control{
+    width: 100%;
+    margin:30px auto;
+    background: #fff; 
+    padding:10px 10px;
 }
-.facebook ul li a i{
-	font-size: 36px;
-	color:#fff;
+.form-controll::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #fff;
+    top: -24px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+button:focus {
+    outline: 0;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+.btn.focus, .btn:focus {
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+.submit{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.submit input{
+    padding: 10px 40px;
+	color: #fff;
+	background:#DE2B24;
 }
 
 /*document section end*/
