@@ -115,7 +115,7 @@ body{
 
 /*banner section start*/
 .banner_section{
-	height: 100vh;
+    padding-bottom: 200px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background:url(../images/banner1.png);
@@ -406,7 +406,7 @@ body{
     border: 1px solid #fff;
     margin:0 auto;
     display: block;
-    background: none;
+    background:#fff;
     height: 50px;
     border-radius: 50%;
     line-height:50px;
@@ -416,7 +416,7 @@ body{
 	color: #fff;
 }
 .document button i{
-    color: #fff;
+    color: #000;
     font-size:20px;
     background: none;
 }
@@ -455,6 +455,9 @@ body{
     background: #fff; 
     padding:10px 10px;
 }
+.form-controll button:hover{
+    background:#F8CD53;
+}
 .form-controll::after {
     position: absolute;
     content: "";
@@ -482,6 +485,9 @@ button:focus {
     padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
+}
+.submit input:hover{
+    background:#F8CD53;
 }
 .submit input{
     text-transform: uppercase;
